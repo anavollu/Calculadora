@@ -1,4 +1,3 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -55,7 +54,7 @@
     </head>
     <body>
         <h1 class="text-center">Calculadora</h1>
-        <form id="calcular-form" actioalign-items: n="calcular" method="post">
+        <form id="calcular-form" method="post">
             <div class="form-item">
                 <label for="arg1">Valor1</label>
                 <input type="number" required step="1" name="arg1"value="${arg1}">
